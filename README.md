@@ -24,7 +24,7 @@ A multi-client real-time group chat application built in Java, inspired by chara
 - **Java AWT & Swing**  
 - **TCP Socket Programming**  
 - **Multithreading**  
-- **Object-Oriented Design**<img width="1388" alt="Preview" src="https://github.com/user-attachments/assets/266c3364-6118-495d-8c7a-a069d6b60eec" />
+- **Object-Oriented Design**
 
 
 ---
@@ -63,5 +63,6 @@ Chat history log
 
 Harini Emmadi
 📧 [harini14738@gmail.com]
+
 🔗 https://github.com/hariniguptaemmadi
 
