@@ -13,10 +13,15 @@ A multi-client real-time group chat application built in Java, inspired by chara
 The screenshot shows a real-time multi-user chat application GUI built using Java Swing. It features:
 
 *A custom anime-themed chat window titled The Leaf Village.
+
 *The top bar displays user avatars, chat name, and participants (Itachi, Naruto, Obito, Sasuke, Kakashi).
+
 *Messages appear in bubble format, with timestamps.
+
 *A custom background image (Leaf Village) sets a themed tone.
+
 *Three users are actively sending and receiving messages.
+
 *This interface effectively demonstrates both networking and GUI skills in a creative, themed way.
 
 ## Features
@@ -66,8 +71,11 @@ The screenshot shows a real-time multi-user chat application GUI built using Jav
 ## Future Enhancements
 
 -Add dynamic login/signup with custom usernames
+
 -Include file/image sharing support
+
 -Implement basic encryption for message privacy
+
 -Chat history log
 
 ## Author
