@@ -63,19 +63,20 @@ Three users are actively sending and receiving messages.This interface effective
 
 ## Future Enhancements
 
--Add **dynamic login/signup** with custom usernames.
+- Add **dynamic login/signup** with custom usernames.
 
--Include **file/image sharing** support.
+- Include **file/image sharing** support.
 
--Implement basic encryption for message **privacy**.
+- Implement basic encryption for message **privacy**.
 
--Chat **history** log.
+- Chat **history** log.
 
 ---
 
 ## Author
 
 Harini Emmadi
+
 📧 [harini14738@gmail.com]
 
 🔗 https://github.com/hariniguptaemmadi
