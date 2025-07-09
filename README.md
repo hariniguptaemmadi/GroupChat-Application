@@ -68,6 +68,37 @@ Three users are actively sending and receiving messages.This interface effective
 
 ---
 
+## How to Run the Project
+
+## Requirements
+Java JDK (version 8 or higher)
+Any Java IDE (e.g., IntelliJ IDEA, Eclipse, or VS Code with Java extension)
+Basic knowledge of Java Sockets and Threads
+
+## Steps to Run
+1. Clone the Repository
+git clone https://github.com/hariniguptaemmadi/GroupChat-Application.git
+cd GroupChat-Application
+2. Open in your IDE
+Open the project folder in your preferred Java IDE.
+3. Compile the Java Files
+Ensure all .java files (e.g., Server.java, Client.java) are compiled.
+4. Run the Server
+Start the Server.java class first to initialize the server.
+You can run it via terminal or IDE:
+java Server
+5. Run the Client(s)
+Then run Client.java. You can open multiple instances to simulate multiple clients joining the chat.
+java Client
+
+## Notes
+
+1. Make sure the port number in Server.java and Client.java matches.
+2. Ensure your firewall or antivirus doesn't block the Java network connection.
+3. The UI is built using Java Swing.
+
+----
+
 ## Future Enhancements
 
 - Add **dynamic login/signup** with custom usernames.
