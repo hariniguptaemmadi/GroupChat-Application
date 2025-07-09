@@ -71,11 +71,13 @@ Three users are actively sending and receiving messages.This interface effective
 ## How to Run the Project
 
 -- Requirements
-Java JDK (version 8 or higher)
-Any Java IDE (e.g., IntelliJ IDEA, Eclipse, or VS Code with Java extension)
-Basic knowledge of Java Sockets and Threads
+
+- Java JDK (version 8 or higher)
+- Any Java IDE (e.g., IntelliJ IDEA, Eclipse, or VS Code with Java extension)
+- Basic knowledge of Java Sockets and Threads
 
 -- Steps to Run
+
 1. Clone the Repository
 git clone https://github.com/hariniguptaemmadi/GroupChat-Application.git
 cd GroupChat-Application
