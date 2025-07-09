@@ -70,12 +70,12 @@ Three users are actively sending and receiving messages.This interface effective
 
 ## How to Run the Project
 
-## Requirements
+-- Requirements
 Java JDK (version 8 or higher)
 Any Java IDE (e.g., IntelliJ IDEA, Eclipse, or VS Code with Java extension)
 Basic knowledge of Java Sockets and Threads
 
-## Steps to Run
+-- Steps to Run
 1. Clone the Repository
 git clone https://github.com/hariniguptaemmadi/GroupChat-Application.git
 cd GroupChat-Application
@@ -91,11 +91,11 @@ java Server
 Then run Client.java. You can open multiple instances to simulate multiple clients joining the chat.
 java Client
 
-## Notes
+-- Notes
 
-1. Make sure the port number in Server.java and Client.java matches.
-2. Ensure your firewall or antivirus doesn't block the Java network connection.
-3. The UI is built using Java Swing.
+- Make sure the port number in Server.java and Client.java matches.
+-  Ensure your firewall or antivirus doesn't block the Java network connection.
+-   The UI is built using Java Swing.
 
 ----
 
