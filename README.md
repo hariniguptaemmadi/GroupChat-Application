@@ -1,81 +1,86 @@
-# Leaf Village Group Chat (Java Socket Programming + GUI)
+# 🌿 Leaf Village Group Chat  
+## Java Multi-Client Chat Application (Socket Programming + Swing GUI)
 
-A multi-client real-time group chat application built in Java, inspired by characters from the Naruto anime series. This desktop app uses **Java Socket Programming**, **AWT/Swing**, and **multithreading** to simulate seamless communication between multiple users, each themed as a unique ninja from the *Leaf Village*.
-
----
-## Live Demo
-
-[🎥 Watch the Demo](https://drive.google.com/file/d/1_qSHQLhoC7B4YY_FE3pTCk_rOl1adMjC/view?usp=sharing)
+A **multi-client real-time group chat application built in Java**, inspired by characters from the *Naruto* anime series.  
+This desktop application uses **Java Socket Programming**, **AWT/Swing**, and **multithreading** to enable seamless communication between multiple users, each themed as a unique ninja from the **Leaf Village**.
 
 ---
 
-## Screenshots
+## 🎥 Live Demo
+
+👉 [Watch the Demo](https://drive.google.com/file/d/1_qSHQLhoC7B4YY_FE3pTCk_rOl1adMjC/view?usp=sharing)
+
+---
+
+## 🖼 Screenshots
 
 <img width="1388" alt="Preview" src="https://github.com/user-attachments/assets/94c6411f-0568-4b47-bc03-d1949c71570e" />
 
 ---
 
-## Description
+## 📌 Description
 
-The screenshot shows a real-time multi-user chat application GUI built using Java Swing. It features:
+This project showcases a **real-time multi-user chat application GUI** built using **Java Swing**.
 
-A custom anime-themed chat window titled The Leaf Village.The top bar displays user avatars, chat name, and participants (Itachi, Naruto, Obito, Sasuke, Kakashi).Messages appear in bubble format, with timestamps.A custom background image (Leaf Village) sets a themed tone.
-Three users are actively sending and receiving messages.This interface effectively demonstrates both networking and GUI skills in a creative, themed way.
+### Interface Highlights
+- Custom anime-themed chat window titled **The Leaf Village**
+- Top bar displaying user avatars, chat name, and participants  
+  (*Itachi, Naruto, Obito, Sasuke, Kakashi*)
+- Messages displayed in **chat bubble format** with timestamps
+- Custom **Leaf Village background image**
+- Multiple users actively sending and receiving messages
 
----
-
-## Features
-
-- **Multithreaded Server**: Handles multiple client connections simultaneously.
-- **Real-Time Chat**: Messages are broadcasted instantly across all connected clients.
-- **Custom GUI**: AWT/Swing-based UI with background image, rounded chat bubbles, and timestamps.
-- **User Personalization**: Predefined characters like *Itachi, Naruto, Sasuke, Obito, Kakashi* simulate a team chat environment.
-- **Themed Interface**: Naruto’s Leaf Village as the background — improves visual engagement.
+This interface effectively demonstrates both **networking** and **GUI design skills** in a creative and themed manner.
 
 ---
 
-## Tech Stack
+## ✨ Features
 
-- **Java**  
-- **Java AWT & Swing**  
-- **TCP Socket Programming**  
-- **Multithreading**  
+- **Multithreaded Server** – Handles multiple client connections simultaneously  
+- **Real-Time Chat** – Messages broadcast instantly to all connected users  
+- **Custom GUI** – AWT/Swing-based UI with background images, rounded chat bubbles, and timestamps  
+- **User Personalization** – Predefined characters (*Itachi, Naruto, Sasuke, Obito, Kakashi*)  
+- **Themed Interface** – Naruto’s Leaf Village theme for enhanced visual engagement  
+
+---
+
+## 🛠 Tech Stack
+
+- **Java**
+- **Java AWT & Swing**
+- **TCP Socket Programming**
+- **Multithreading**
 - **Object-Oriented Design**
 
+---
+
+## ⚙️ How It Works
+
+### 🖥 Server (`Server.java`)
+- Listens on port **2003**
+- Creates a new thread for every connected client
+- Maintains a list of active client writers
+- Broadcasts incoming messages to all users
+
+### 👤 Clients (`User1.java`, `User2.java`, ...)
+- GUI-based client programs representing different characters
+- Connect to the server using TCP sockets
+- Send and receive messages in real time
+- Custom UI styling with background images and timestamps
 
 ---
 
-##  How It Works
+## 🎯 Learning Outcomes
 
-1. **Server.java**  
-   - Listens on a port (`2003`) and creates a new thread for every connected user.
-   - Maintains a list of active writers to broadcast messages.
-
-2. **User1.java, User2.java, ...**  
-   - GUI client programs representing different characters.
-   - Connects to the server and sends/receives chat messages.
-   - Custom styling with image backgrounds and timestamps.
+- Strong understanding of **Java networking protocols**
+- Hands-on experience with **multithreading and concurrency**
+- Real-time synchronization between threads and UI updates
+- Client–server architecture design
+- Custom GUI development using Java Swing
 
 ---
 
-
-
-## Learning Outcomes
-
-- Developed a strong understanding of **network protocols** and **concurrent programming** in Java.
-- Built real-time synchronization between threads and UI updates.
-- Gained experience in **custom GUI design**, error handling, and client-server architecture.
-
----
-
-## How to Run the Project
-
--- Requirements
-
-- Java JDK (version 8 or higher)
-- Any Java IDE (e.g., IntelliJ IDEA, Eclipse, or VS Code with Java extension)
-- Basic knowledge of Java Sockets and Threads
-
+## ▶️ How to Run the Project
 -- Steps to Run
 
 1. Clone the Repository
